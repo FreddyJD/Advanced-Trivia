@@ -5,31 +5,30 @@
 // Rotate every 30 seconds
 // Display last how many rights and how much wrong answare you got! 
 // TRUE = TRUE FIRST BUTTON || FALSE = SECOND BUTTON ES TRUE 
-
 var qA = {
     obj: [{
-        q: "What this code run ?",
+        q: "What is the first console log?",
+        r: "<u>Remeber</u>: The console.log is a common object/method provided by debuggers (including the Chrome debugger and Firebug) that allows a script to log data (or objects in most cases) to the JavaScript console.</p>",
+        op1: "console.log(''true'');",
+        op2: "console.log(i);",
+        a: true
+    }, {
+        q: "What is the last number in this loop?",
+        r: "<u>Remeber</u>: Loops are handy, if you want to run the same code over and over again, each time with a different value.</p>",
+        op1: "This loop will console.log the number 77",
+        op2: "This loop wont register in the console the number 77",
+        a: false
+    }, {
+        q: "How many times it will console log ''true''?",
         r: "<u>Remeber</u>: An array is an object the contains elements of similar data type. It is a data structure where we store similar elements.</p>",
-        op1: "No no no - god no",
-        op2: "Yeisaud 198",
-        a: true
+        op1: "This will give an error because its a boolean ",
+        op2: "This will log 11 times ''true'' ",
+        a: false
     }, {
-        q: "This function will run?",
+        q: "Will this code log all the numbers between 0 - 76? ",
         r: "<u>Remeber</u>: an activity or purpose natural to or intended for a person or thing.</p>",
-        op1: "234No no no - god no",
-        op2: "Yei59*saud 198",
-        a: true
-    }, {
-        q: "Brogrammer exist ?",
-        r: "<u>Remeber</u>: An array is an object the contains elements of similar data type. It is a data structure where we store similar elements.</p>",
-        op1: "OIOi2oNo no no - god no",
-        op2: "+36+09asd 8Yeisaud 198",
-        a: true
-    }, {
-        q: "Water and microwave?",
-        r: "<u>Remeber</u>: an activity or purpose natural to or intended for a person or thing.</p>",
-        op1: "N817o no no - god no",
-        op2: "YASdeisaud 198",
+        op1: "Yes! it will log 0 - 76 and a few ''true'''s log ",
+        op2: "It will skip a few lines",
         a: false
     }]
   };
@@ -116,4 +115,5 @@ function qDisplay() {
     $("#b1").hide();
     $("#b2").hide();
     $("#time").hide();
+    $("#hu").hide();
  }
