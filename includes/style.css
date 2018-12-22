@@ -42,3 +42,18 @@
     font-size: 16px;
     padding: 10px 0 0px 0;
 }
+
+code { 
+    color: royalblue;
+    padding: -10;
+    line-height: 1.6;
+    font-size: 13px;
+}
+pre { 
+    padding: -10;
+    line-height: 1.8;
+    font-size: 10px;
+    color: royalblue;
+    font-size: 13px;
+    margin-bottom: -0.23rem;
+}
