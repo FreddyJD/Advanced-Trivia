@@ -17,27 +17,31 @@
                 <!--  this is a sample question-->
                 <div class="col-md-8">
                     <h2>JS Quiz</h2>
-                    <p> Are you a true brogrammer ?</p>
+                    <p>Are you a true brogrammer ? Read this ugly code and respond correctly</p>
                     <hr>
                     <div class="question">
-                        <p class="question-title"> What this code run ? </p>
-                        <code>
-                            var frutas = ['Manzana', 'Banana'];
+                        <p class="question-title"> What is the first console log? </p>
+                        <code> 
+                            for (i = 0; i < 77; i++) {
+                                <pre>if (i % 7 === 0) {</pre>
+                                    <pre><pre>console.log("true"); </pre></pre>
+                                    <pre>   } else { </pre>
+                                        <pre><pre>    console.log(i);<br></pre></pre>
+                                }}
+                            
+                            </code>
                         <br>
-                            <samp>console.log(frutas.length)</samp>; 
-                        </code>
-                        <br>
-                        <p class="question-fun-fact"><u>Remeber</u>: An array is an object the contains elements of similar data type. It is a data structure where we store similar elements.</p>
-                        <span id="hideR2"><a class="badge badge-light"> <i class="fas fa-check-circle"></i> Option one :<span id="op1"> It will log in the console "2" </span> </a> <br></span>
-                        <span id="hideR"><a class="badge badge-light"> <i class="fas fa-check-circle"></i> Option two : <span id="op2"> It will log in the console "['Manzana', 'Banana']" </span> </a></span>
+                        <p class="question-fun-fact"><u>Remeber</u>: The console.log is a common object/method provided by debuggers (including the Chrome debugger and Firebug) that allows a script to log data (or objects in most cases) to the JavaScript console.</p>
+                        <span id="hideR2"><a class="badge badge-light"> <i class="fas fa-check-circle"></i> <span id="hu">Option one :</span><span id="op1"> console.log(''true''); </span> </a> <br></span>
+                        <span id="hideR"><a class="badge badge-light"> <i class="fas fa-check-circle"></i> Option two : <span id="op2"> console.log(i); </span> </a></span>
                     </div>
                 </div>
                 <!--  this is a sample question-->
                 
                 <div class="col-md-3">
                     <h2 id="time">30</h2>
-                    <p>Seconds left</p>
-                    <hr>
+                    <p id="h">Seconds left</p>
+                    <hr id="hr">
 
                     <button id="b1" type="button" class="btn btn-outline-success btn-lg btn-block"><i class="fas fa-check-circle"></i> Option one</button>
                     <button id="b2" type="button" class="btn btn-outline-info btn-lg btn-block"><i class="fas fa-check-circle"></i> Option two</button>
